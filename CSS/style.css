@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.image {
+    background-image: url(../image/odin-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.intro {
+    background-color: black;
+    opacity: 0.4;
+    width: 100vw;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+
+.login {
+    width: 50vw;
+    height: auto;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 40px;
+    background-color: rgb(200, 200, 200);
+    height: 35%;
+    width: 100%;
+}
+
+.about h1 {
+    font-size: 2em;
+}
+
+.about h2 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.about h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.information {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(227, 203, 203);
+    height: 35%;
+    width: 100%;
+}
+
+input {
+    width: 150%;
+    height: 25px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.information h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.first {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.second {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+#password,
+#confirmpassword {
+    border: 1px solid red;
+}
+
+.form {
+    display: flex;
+}
+
+.button button {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 20%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.button h3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 1.2em;
+}
+
+
