@@ -1,3 +1,22 @@
-# LoginPage
-# The project is based on the assignment on odin project. I am making a sign up page for the website as an assginment.
-# I completed the assignment. It is not nice but I just started so I think it works for now."
+#Login Page - The Odin Project Assignment
+
+Overview
+
+This is a simple login page built as part of The Odin Project's web development curriculum. The project focuses on practicing HTML, CSS, and basic form validation.
+
+Features
+
+Responsive login form
+
+Input validation for username and password
+
+Styled using CSS for a clean and modern look
+
+Interactive button hover effects
+
+Technologies Used
+
+HTML
+
+CSS
+
